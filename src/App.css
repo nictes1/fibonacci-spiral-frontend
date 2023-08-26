@@ -1,6 +1,33 @@
 .App {
-  text-align: center;
+  width: 100%;
+  margin: 12px auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfcfc;
 }
+
+.matrix-container {
+  width: 100%;
+  margin-top: 10px;
+  display: table;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.matrix-row {
+  display: table-row;
+  margin: 0 auto;
+}
+
+.matrix-cell {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 
 .App-logo {
   height: 40vmin;
