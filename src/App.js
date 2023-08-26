@@ -62,7 +62,7 @@ function App() {
           value={cols}
           onChange={(e) => setCols(parseInt(e.target.value))}
         />
-        <button type="button" onClick={generateMatrix}>
+        <button type="calculate" onClick={generateMatrix}>
           Calculate
         </button>
       </div>
